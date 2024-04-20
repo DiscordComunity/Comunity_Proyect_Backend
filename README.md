@@ -4,14 +4,17 @@ Community project para la gente de Discord
 
 ## Minimo producto viable:
 
-- Starting quizes (pendiente)
-- Se debe incentivar una tematica (lenguajes de programacion)
-- Un usuario puede CREAR un quiz o JUGAR a otro quiz que no sea suyo (caso contrario seria una especie de prueba)
-- El usuario debe ser capaz de de jugar un quiz
-  - Salir del quiz
-  - Continuar sin reponder
-- El usuario deberia ser capaz de recibir feedback al final de cada quiz
-- Con un JSON definimos los quizes
+- Autenticacion de usuario (login)
+- Apenas ingresa, el usuario debera visualizar un home con _starting quizes_: un feed the quizes preelaborados.
+- Los “quizes” estan divididos en categorias (lenguajes, perfiles, dsa, ect) pueden tener algunas subcategorias (java, backend, linked lists, etc)
+- El usuario puede CREAR un quiz (requiere de un form)
+- El usuario puede JUGAR a otro quiz que no sea suyo (caso contrario seria una especie de prueba)
+- Dentro del quiz, el usuario puede hacer las sig acciones:
+  - Salir del quiz en cualquier momento
+  - Seleccionar una de multiples opciones
+  - Continuar con o sin reponder
+- Terminado el quiz, el usuario deberia ser capaz de recibir feedback (entidad _results_)
+- El usuario deberia ser capaz de exportar e importar quizes en formato JSON.
 
 ## A futuro
 
