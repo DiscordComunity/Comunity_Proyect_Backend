@@ -23,6 +23,10 @@ Community project para la gente de Discord
 - Ranking the players
 - Exportar resultados de los players en formatos like .csv
 
+## Diagrama ER
+
+![diagrama_er](https://i.ibb.co/rbbqt3q/db.webp)
+
 ## Tecnologias
 
 - Express
