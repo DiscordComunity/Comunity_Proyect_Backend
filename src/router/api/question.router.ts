@@ -1,5 +1,5 @@
 import express from 'express';
-import questionsData from '../../data/question.data';
+import questionsData from '../../../data/question.data';
 
 const router = express.Router();
 
